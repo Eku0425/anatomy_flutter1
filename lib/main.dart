@@ -40,7 +40,10 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
+    return SafeArea(child: Scaffold)(
+
+
+
       backgroundColor: Colors.black,
 
       body: Center(
